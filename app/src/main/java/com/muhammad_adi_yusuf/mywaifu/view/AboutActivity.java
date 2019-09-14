@@ -1,8 +1,10 @@
-package com.muhammad_adi_yusuf.mywaifu;
+package com.muhammad_adi_yusuf.mywaifu.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.muhammad_adi_yusuf.mywaifu.R;
 
 public class AboutActivity extends AppCompatActivity {
 
