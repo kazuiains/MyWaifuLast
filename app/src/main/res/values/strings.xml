@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Waifu</string>
+    <string name="image_character">Image Character</string>
+    <string name="tv_nama">violet evergarden</string>
+    <string name="foto_waifu">Foto Waifu</string>
+    <string name="nama">Hina</string>
+    <string name="anime">Tenki no Ko</string>
+
+    <string-array name="name">
+        <item>Violet Evergarden</item>
+        <item>Hina</item>
+        <item>Albedo</item>
+        <item>Mikasa</item>
+        <item>Inori Yuzuriha</item>
+    </string-array>
+    <string-array name="anime">
+        <item>Violet Evergarden</item>
+        <item>Tenki no Ko</item>
+        <item>Overlord</item>
+        <item>Shingeki no Kyojin</item>
+        <item>Guilty Crown</item>
+    </string-array>
+    <string-array name="rilis">
+        <item>Jan 11, 2018</item>
+        <item>Jul 19, 2019</item>
+        <item>Jul 7, 2015 </item>
+        <item>Apr 7, 2013</item>
+        <item>Oct 14, 2011</item>
+    </string-array>
+    <string-array name="deskripsi">
+        <item>The Great War finally came to an end after four long years of conflict; fractured in two, the continent of Telesis slowly began to flourish once again. Caught up in the bloodshed was Violet Evergarden, a young girl raised for the sole purpose of decimating enemy lines. Hospitalized and maimed in a bloody skirmish during the War\'s final leg, she was left with only words from the person she held dearest, but with no understanding of their meaning.\n\nRecovering from her wounds, Violet starts a new life working at CH Postal Services after a falling out with her new intended guardian family. There, she witnesses by pure chance the work of an \"Auto Memory Doll,\" amanuenses that transcribe people\'s thoughts and feelings into words on paper. Moved by the notion, Violet begins work as an Auto Memory Doll, a trade that will take her on an adventure, one that will reshape the lives of her clients and hopefully lead to self-discovery.</item>
+        <item>The summer of his high school freshman year, Hodaka runs away from his remote island home to Tokyo, and quickly finds himself pushed to his financial and personal limits. The weather is unusually gloomy and rainy every day, as if to suggest his future. He lives his days in isolation, but finally finds work as a writer for a mysterious occult magazine. Then one day, Hodaka meets Hina on a busy street corner. This bright and strong-willed girl possesses a strange and wonderful ability: the power to stop the rain and clear the sky..</item>
+        <item>The final hour of the popular virtual reality game Yggdrasil has come. However, Momonga, a powerful wizard and master of the dark guild Ainz Ooal Gown, decides to spend his last few moments in the game as the servers begin to shut down. To his surprise, despite the clock having struck midnight, Momonga is still fully conscious as his character and, moreover, the non-player characters appear to have developed personalities of their own!\n\nConfronted with this abnormal situation, Momonga commands his loyal servants to help him investigate and take control of this new world, with the hopes of figuring out what has caused this development and if there may be others in the same predicament.</item>
+        <item>Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.\n\nAfter witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Based on Hajime Isayama\'s award-winning manga, Shingeki no Kyojin follows Eren, along with his adopted sister Mikasa Ackerman and his childhood friend Armin Arlert, as they join the brutal war against the titans and race to discover a way of defeating them before the last walls are breached.</item>
+        <item>Japan, 2039. Ten years after the outbreak of the \"Apocalypse Virus,\" an event solemnly regarded as \"Lost Christmas,\" the once proud nation has fallen under the rule of the GHQ, an independent military force dedicated to restoring order. Funeral Parlor, a guerilla group led by the infamous Gai Tsutsugami, act as freedom fighters, offering the only resistance to GHQ\'s cruel despotism.\n\nInori Yuzuriha, a key member of Funeral Parlor, runs into the weak and unsociable Shuu Ouma during a crucial operation, which results in him obtaining the \"Power of Kings\"—an ability which allows the wielder to draw out the manifestations of an individual\'s personality, or \"voids.\" Now an unwilling participant in the struggle against GHQ, Shuu must learn to control his newfound power if he is to help take back Japan once and for all.\n\nGuilty Crown follows the action-packed story of a young high school student who is dragged into a war, possessing an ability that will help him uncover the secrets of the GHQ, Funeral Parlor, and Lost Christmas. However, he will soon learn that the truth comes at a far greater price than he could have ever imagined.</item>
+    </string-array>
+    <array name="foto">
+        <item>@drawable/violet</item>
+        <item>@drawable/hima</item>
+        <item>@drawable/albedo</item>
+        <item>@drawable/mikasa</item>
+        <item>@drawable/inori</item>
+    </array>
+</resources>

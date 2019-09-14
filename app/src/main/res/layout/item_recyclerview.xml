@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#51CFCFCF">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/foto_waifu"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hima" />
+
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:contentDescription="@string/foto_waifu"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/hima" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:text="@string/nama"
+                android:textColor="#24B9FF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:text="@string/anime"
+                android:textSize="20sp"
+                android:textColor="#24B9FF"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:textColor="#000"
+            android:ellipsize="end"
+            android:text="ksakj wk kj wkjaka kjdakwjd kjdkaw adkj dkajk dkkjd kajwdk jaksdj kaj wkdj akjwd kajdk ajwd kjaw kdjaw kdja kjwd kajw dkjaw djaw dkjaw djaw kdja wkd jwkdja djkawjdkw ajkjdaw djakwjd akwjda jwdkawj" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DetailActivity">
+
+        <ImageView
+            android:id="@+id/img_char"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/image_character"
+            android:scaleType="fitXY"
+            android:src="@drawable/hima"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B532BBCA"
+            android:text="@string/tv_nama"
+            android:textAlignment="center"
+            android:textColor="#FFFDFD"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/img_char"
+
+            tools:layout_editor_absoluteX="16dp" />
+
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="vlvlala"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
