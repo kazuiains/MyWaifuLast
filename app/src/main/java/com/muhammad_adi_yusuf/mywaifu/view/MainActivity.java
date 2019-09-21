@@ -1,5 +1,6 @@
 package com.muhammad_adi_yusuf.mywaifu.view;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -7,6 +8,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.muhammad_adi_yusuf.mywaifu.R;
@@ -64,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
     private void InisialisasiArray() {
         dataName = getResources().getStringArray(R.array.name);
         dataAnimeName = getResources().getStringArray(R.array.anime);
@@ -72,4 +76,16 @@ public class MainActivity extends AppCompatActivity {
         dataRelease = getResources().getStringArray(R.array.rilis);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.about, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        Intent pindah= new Intent(getBaseContext(), AboutActivity.class);
+        startActivity(pindah);
+        return super.onOptionsItemSelected(item);
+    }
 }
