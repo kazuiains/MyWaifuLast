@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.view.View;
 
 import com.muhammad_adi_yusuf.mywaifu.R;
 import com.muhammad_adi_yusuf.mywaifu.modul.DataList;
@@ -30,6 +32,22 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         AdapterRecycler adapter = new AdapterRecycler(this, dataList);
         recyclerView.setAdapter(adapter);
+
+        ItemSupport.addTo(recyclerView).setOnItemClickListener(new ItemSupport.OnItemClickListener() {
+            @Override
+            public void onItemClicked(RecyclerView recyclerView, int position, View v) {
+
+                DataList item = dataList.get(position);
+                Intent intentJump = new Intent(getBaseContext(), DetailActivity.class);
+                intentJump.putExtra("name", item.getName());
+                intentJump.putExtra("anime", item.getAnimeName());
+                intentJump.putExtra("rilis", item.getRelease());
+                intentJump.putExtra("deskripsi", item.getDeskrip());
+                intentJump.putExtra("foto", item.getFoto());
+                startActivity(intentJump);
+
+            }
+        });
     }
 
     private void InputData() {
